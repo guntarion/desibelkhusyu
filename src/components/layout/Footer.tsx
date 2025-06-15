@@ -20,8 +20,8 @@ const footerLinks = {
   ],
   about: [
     { name: 'Tentang Aplikasi', href: '/tentang' },
-    { name: 'Metode 30 Desibel', href: '/metode' },
-    { name: 'Kontak', href: '/kontak' },
+    { name: 'Tentang Buku', href: '/profil' },
+    { name: 'Tentang Penyusun', href: '/profil' },
     { name: 'Privacy Policy', href: '/privacy' },
   ]
 };

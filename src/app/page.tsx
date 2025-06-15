@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, BookOpen, Target, ClipboardList, BarChart3, Heart, CheckCircle, Star } from 'lucide-react';
+import { ArrowRight, BookOpen, Target, ClipboardList, BarChart3, Heart, CheckCircle, Star, User, Info } from 'lucide-react';
 import { APP_INFO, ROUTES } from '@/lib/constants/app.constants';
 
 export default function Home() {
@@ -206,6 +206,116 @@ export default function Home() {
                 <p className="text-gray-700">{benefit}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Book and Author Profile */}
+      <section className="py-16 bg-gradient-to-br from-emerald-50 to-amber-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Mengenal Buku dan Penulisnya
+            </h2>
+            <p className="text-lg text-gray-600">
+              Pelajari lebih dalam tentang karya dan penjana metode 30 Desibel Plus
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* About Book Card */}
+            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow group">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mr-4">
+                  <BookOpen className="w-6 h-6 text-emerald-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900">Tentang Buku</h3>
+                  <p className="text-gray-600">Metode 30 Desibel Plus</p>
+                </div>
+              </div>
+              
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Panduan praktis mencapai sholat khusyu dengan pendekatan saintifik dan spiritual. 
+                Menggabungkan teknik suara lembut 30dB dengan mindfulness untuk menciptakan dialog hidup dengan Allah.
+              </p>
+              
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center text-sm text-gray-600">
+                  <Info className="w-4 h-4 mr-2 text-emerald-500" />
+                  <span>3 Langkah Praktis Menuju Khusyu</span>
+                </div>
+                <div className="flex items-center text-sm text-gray-600">
+                  <Info className="w-4 h-4 mr-2 text-emerald-500" />
+                  <span>Teknik Terbukti Secara Ilmiah</span>
+                </div>
+                <div className="flex items-center text-sm text-gray-600">
+                  <Info className="w-4 h-4 mr-2 text-emerald-500" />
+                  <span>Panduan Training 21 Hari</span>
+                </div>
+              </div>
+              
+              <Link
+                href={ROUTES.profil}
+                className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-medium group-hover:translate-x-1 transition-transform"
+              >
+                Pelajari Lebih Lanjut
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+            </div>
+
+            {/* About Author Card */}
+            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow group">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mr-4">
+                  <User className="w-6 h-6 text-amber-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900">Tentang Penyusun</h3>
+                  <p className="text-gray-600">Iwan Efrulwan Muhajirin</p>
+                </div>
+              </div>
+              
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Praktisi Al-Qur'an berpengalaman yang mendedikasikan hidupnya untuk membantu umat 
+                dalam memahami dan menghayati ibadah sholat. Pendiri komunitas "Yuk Ngaji Qur'an Rewwin".
+              </p>
+              
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center text-sm text-gray-600">
+                  <Info className="w-4 h-4 mr-2 text-amber-500" />
+                  <span>Magister dari University of East Anglia, UK</span>
+                </div>
+                <div className="flex items-center text-sm text-gray-600">
+                  <Info className="w-4 h-4 mr-2 text-amber-500" />
+                  <span>Pendamping Lansia dalam Belajar Al-Qur'an</span>
+                </div>
+                <div className="flex items-center text-sm text-gray-600">
+                  <Info className="w-4 h-4 mr-2 text-amber-500" />
+                  <span>Pelayan Jamaah Masjid Al-Muhajirin</span>
+                </div>
+              </div>
+              
+              <Link
+                href={ROUTES.profil}
+                className="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium group-hover:translate-x-1 transition-transform"
+              >
+                Baca Profil Lengkap
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+
+          {/* CTA to Profile */}
+          <div className="text-center mt-12">
+            <Link
+              href={ROUTES.profil}
+              className="inline-flex items-center px-8 py-4 bg-white text-gray-900 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all font-medium border border-gray-200"
+            >
+              <BookOpen className="mr-3 w-5 h-5 text-emerald-600" />
+              Jelajahi Profil Lengkap
+              <ArrowRight className="ml-3 w-5 h-5" />
+            </Link>
           </div>
         </div>
       </section>

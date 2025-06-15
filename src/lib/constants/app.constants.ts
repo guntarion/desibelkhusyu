@@ -6,7 +6,7 @@
  */
 export const APP_INFO = {
   name: 'Desibel Khusyu',
-  subtitle: 'Panduan Sholat Khusyu dengan Metode 30 Desibel Plus',
+  subtitle: 'Metode 30 Desibel Plus untuk Sholat Khusyu',
   version: '1.0.0',
   author: 'Berdasarkan buku oleh Iwan Efrulwan Muhajirin',
   description: 'Aplikasi panduan praktis mencapai sholat khusyu menggunakan metode 3 langkah dan teknik 30 desibel',

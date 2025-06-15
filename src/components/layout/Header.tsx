@@ -5,7 +5,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X, Home, BookOpen, Target, ClipboardList, BarChart3 } from 'lucide-react';
+import { Menu, X, Home, BookOpen, Target, ClipboardList, BarChart3, User } from 'lucide-react';
 import { APP_INFO, ROUTES } from '@/lib/constants/app.constants';
 
 const navigation = [
@@ -44,6 +44,12 @@ const navigation = [
     href: ROUTES.penilaian,
     icon: BarChart3,
     description: 'Assessment level khusyu'
+  },
+  {
+    name: 'Profil',
+    href: ROUTES.profil,
+    icon: User,
+    description: 'Tentang buku dan penyusun'
   }
 ];
 
