@@ -1,3 +1,7 @@
+/* Import Arabic fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -72,8 +76,15 @@
 
 /* Custom Islamic app styles */
 @layer components {
+  .font-arabic {
+    font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.8;
+  }
+  
   .arabic-text {
-    font-family: 'Amiri', 'Traditional Arabic', serif;
+    font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
     direction: rtl;
     text-align: right;
     line-height: 1.8;
