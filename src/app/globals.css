@@ -1,11 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   :root {
@@ -35,6 +30,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+  
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -63,13 +59,62 @@
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
   }
+  
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+}
+
+/* Custom Islamic app styles */
+@layer components {
+  .arabic-text {
+    font-family: 'Amiri', 'Traditional Arabic', serif;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.8;
+  }
+  
+  .transliteration-text {
+    font-style: italic;
+    color: hsl(var(--muted-foreground));
+  }
+  
+  .prayer-card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+  
+  .prayer-step-active {
+    @apply bg-emerald-50 border-emerald-200;
+  }
+  
+  .khusyu-level-1 {
+    @apply bg-red-50 border-red-200 text-red-800;
+  }
+  
+  .khusyu-level-2 {
+    @apply bg-orange-50 border-orange-200 text-orange-800;
+  }
+  
+  .khusyu-level-3 {
+    @apply bg-yellow-50 border-yellow-200 text-yellow-800;
+  }
+  
+  .khusyu-level-4 {
+    @apply bg-green-50 border-green-200 text-green-800;
+  }
+  
+  .khusyu-level-5 {
+    @apply bg-violet-50 border-violet-200 text-violet-800;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }
