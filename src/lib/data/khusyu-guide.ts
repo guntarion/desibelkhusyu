@@ -34,7 +34,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'niat',
     title: 'Niat Sholat',
     subtitle: 'Fondasi Seluruh Ibadah',
-    illustrationUrl: '/images/guide/standing.png',
+    illustrationUrl: '/images/guide/standing.jpg',
     audioUrl: '', // Niat tidak dilafazkan, hanya dalam hati
     recitations: [
       {
@@ -66,7 +66,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'takbir',
     title: 'Gerakan 1: Takbiratul Ihram',
     subtitle: 'Gerbang Memasuki Sholat',
-    illustrationUrl: '/images/guide/takbir.png',
+    illustrationUrl: '/images/guide/takbir.jpg',
     audioUrl: '/audio/guide/takbir.mp3',
     recitations: [
       {
@@ -97,7 +97,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'iftitah',
     title: 'Doa Iftitah',
     subtitle: 'Doa Pembuka Komunikasi',
-    illustrationUrl: '/images/guide/sedekap.png',
+    illustrationUrl: '/images/guide/sedekap.jpg',
     audioUrl: '/audio/guide/iftitah-allahumma-baid.mp3',
     recitations: [
       {
@@ -127,7 +127,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'al-fatihah',
     title: 'Membaca Surat Al-Fatihah',
     subtitle: 'Dialog Interaktif dengan Allah',
-    illustrationUrl: '/images/guide/sedekap.png',
+    illustrationUrl: '/images/guide/sedekap.jpg',
     audioUrl: '/audio/guide/al-fatihah.mp3',
     recitations: [
       {
@@ -151,7 +151,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'surat-pendek',
     title: 'Membaca Surat Pendek',
     subtitle: 'Melengkapi Bacaan dalam Rakaat',
-    illustrationUrl: '/images/guide/sedekap.png',
+    illustrationUrl: '/images/guide/sedekap.jpg',
     audioUrl: '/audio/guide/al-ikhlas.mp3',
     recitations: [
       {
@@ -171,7 +171,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'rukuk',
     title: 'Gerakan 2: Rukuk',
     subtitle: 'Menunduk Mengagungkan-Nya',
-    illustrationUrl: '/images/guide/rukuk.png',
+    illustrationUrl: '/images/guide/rukuk.jpg',
     audioUrl: '/audio/guide/rukuk.mp3',
     recitations: [{ arabic: 'سُبْحَانَ رَبِّيَ الْعَظِيمِ', latin: `Subhaana Rabbiyal 'Azhiim`, translation: 'Maha Suci Tuhanku Yang Maha Agung. (Dibaca minimal 3 kali)' }],
     guidance: { physical: ['Badan membungkuk sempurna hingga punggung rata, seperti meja.', 'Kepala sejajar dengan punggung, pandangan ke tempat sujud.', 'Kedua tangan menggenggam lutut dengan jari-jari direnggangkan.'], mindfulness: ['Sadari bahwa kita sedang mengagungkan Allah Yang Maha Agung.', 'Rasakan kerendahan diri kita di hadapan kebesaran-Nya.'] },
@@ -181,7 +181,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'itidal',
     title: `Gerakan 3: I'tidal`,
     subtitle: 'Bangkit dengan Penuh Pujian',
-    illustrationUrl: '/images/guide/standing.png',
+    illustrationUrl: '/images/guide/standing.jpg',
     audioUrl: '/audio/guide/itidal.mp3',
     recitations: [
         { title: 'Saat Bangkit dari Rukuk', arabic: 'سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ', latin: `Sami'allaahu liman hamidah`, translation: 'Allah Maha Mendengar orang yang memuji-Nya.' },
@@ -194,7 +194,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'sujud',
     title: 'Gerakan 4: Sujud',
     subtitle: 'Puncak Kedekatan Hamba',
-    illustrationUrl: '/images/guide/sujud.png',
+    illustrationUrl: '/images/guide/sujud.jpg',
     audioUrl: '/audio/guide/sujud.mp3',
     recitations: [{ arabic: 'سُبْحَانَ رَبِّيَ الْأَعْلَى', latin: `Subhaana Rabbiyal A'laa`, translation: 'Maha Suci Tuhanku Yang Maha Tinggi. (Dibaca minimal 3 kali)' }],
     guidance: { physical: ['Turun sujud dengan tenang.', 'Sentuhkan tujuh anggota sujud ke lantai: dahi dan hidung, dua telapak tangan, dua lutut, dan dua ujung jari kaki.', 'Ujung jari-jari kaki ditekuk menghadap kiblat.'], mindfulness: ['Sadari bahwa sujud adalah saat paling dekat dengan Allah.', 'Rasakan kerendahan total di hadapan Allah.', 'Hadirkan dalam hati: "Aku sujud karena Engkau, Ya Allah. Aku hina, Engkau Maha Mulia."'] },
@@ -204,7 +204,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'duduk-antara-sujud',
     title: 'Gerakan 5: Duduk di Antara Dua Sujud',
     subtitle: 'Jeda untuk Memohon Segalanya',
-    illustrationUrl: '/images/guide/duduk.png',
+    illustrationUrl: '/images/guide/duduk.jpg',
     audioUrl: '/audio/guide/duduk-antara-sujud.mp3',
     recitations: [{ arabic: 'رَبِّ اغْفِرْ لِي، وَارْحَمْنِي، وَاجْبُرْنِي، وَارْفَعْنِي، وَارْزُقْنِي، وَاهْدِنِي، وَعَافِنِي، وَاعْفُ عَنِّي', latin: `Rabbighfir lii, warhamnii, wajburnii, warfa'nii, warzuqnii, wahdinii, wa 'aafinii, wa'fu 'annii.`, translation: 'Ya Tuhanku, ampunilah aku, rahmatilah aku, perbaikilah keadaanku, angkatlah derajatku, berilah aku rezeki, berilah aku petunjuk, sehatkanlah aku, dan maafkanlah aku.' }],
     guidance: { physical: ['Bangkit dari sujud dengan perlahan.', 'Duduk dengan cara iftirasy (duduk di atas telapak kaki kiri, sementara telapak kaki kanan ditegakkan).', 'Kedua tangan diletakkan di atas paha dekat lutut.'], mindfulness: ['Rasakan bahwa saat ini kita sedang memohon 8 permintaan agung langsung kepada Allah.', 'Setiap kalimat adalah permohonan keselamatan, rahmat, dan pengampunan untuk dunia dan akhirat.'] },
@@ -214,7 +214,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'sujud-kedua',
     title: 'Gerakan 6: Sujud Kedua',
     subtitle: 'Melengkapi Satu Rakaat dengan Sujud',
-    illustrationUrl: '/images/guide/sujud.png',
+    illustrationUrl: '/images/guide/sujud-kedua.jpg',
     audioUrl: '/audio/guide/sujud.mp3',
     recitations: [{ arabic: 'سُبْحَانَ رَبِّيَ الْأَعْلَى', latin: `Subhaana Rabbiyal A'laa`, translation: 'Maha Suci Tuhanku Yang Maha Tinggi. (Dibaca minimal 3 kali)' }],
     guidance: { physical: ['Posisi sujud yang sama seperti sujud pertama.', 'Pastikan tujuh anggota sujud menyentuh lantai dengan sempurna.', 'Baca tasbih dengan khusyu dan tidak terburu-buru.'], mindfulness: ['Rasakan bahwa ini adalah sujud kedua untuk melengkapi satu rakaat.', 'Manfaatkan momen kedekatan ini untuk bermunajat kepada Allah.', 'Sadari bahwa setelah ini kita akan bangkit untuk rakaat berikutnya atau duduk tasyahhud.'] },
@@ -224,7 +224,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'tasyahhud-pertama',
     title: 'Gerakan 7: Tasyahhud Pertama',
     subtitle: 'Duduk Tahiyat di Tengah Sholat',
-    illustrationUrl: '/images/guide/tasyahud.png',
+    illustrationUrl: '/images/guide/tasyahud-awal.jpg',
     audioUrl: '/audio/guide/tasyahud-pertama.mp3',
     recitations: [
         { title: 'Bacaan Tahiyat', arabic: `التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ`, latin: `At-tahiyyaatu lillaahi wash-shalawaatu wath-thayyibaat, as-salaamu 'alaika ayyuhan-nabiyyu wa rahmatullaahi wa barakaatuh, as-salaamu 'alainaa wa 'alaa 'ibaadillaahish-shaalihiin, asyhadu an laa ilaaha illallaah, wa asyhadu anna muhammadan rasuulullaah.`, translation: `Segala kehormatan, keberkahan, dan kebaikan adalah milik Allah. Semoga keselamatan, rahmat, dan berkah Allah tercurah atasmu, wahai Nabi. Keselamatan atas kami dan atas hamba-hamba Allah yang shalih. Aku bersaksi bahwa tiada Tuhan selain Allah, dan aku bersaksi bahwa Muhammad adalah utusan Allah.` }
@@ -236,7 +236,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'tasyahhud-akhir',
     title: 'Gerakan 9: Tasyahhud Akhir',
     subtitle: 'Salam Penghormatan & Doa Penutup',
-    illustrationUrl: '/images/guide/tasyahud.png',
+    illustrationUrl: '/images/guide/tasyahud.jpg',
     audioUrl: '/audio/guide/tasyahud-akhir.mp3',
     recitations: [
         { title: 'Bacaan Tahiyat', arabic: `التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ`, latin: `At-tahiyyaatu lillaahi wash-shalawaatu wath-thayyibaat, as-salaamu 'alaika ayyuhan-nabiyyu wa rahmatullaahi wa barakaatuh, as-salaamu 'alainaa wa 'alaa 'ibaadillaahish-shaalihiin, asyhadu an laa ilaaha illallaah, wa asyhadu anna muhammadan rasuulullaah.`, translation: `Segala kehormatan, keberkahan, dan kebaikan adalah milik Allah. Semoga keselamatan, rahmat, dan berkah Allah tercurah atasmu, wahai Nabi. Keselamatan atas kami dan atas hamba-hamba Allah yang shalih. Aku bersaksi bahwa tiada Tuhan selain Allah, dan aku bersaksi bahwa Muhammad adalah utusan Allah.` },
@@ -250,7 +250,7 @@ export const khusyuGuide: PrayerStep[] = [
     id: 'salam',
     title: 'Gerakan 10: Salam',
     subtitle: 'Menutup Sholat, Menebar Kedamaian',
-    illustrationUrl: '/images/guide/salam.png',
+    illustrationUrl: '/images/guide/salam.jpg',
     audioUrl: '/audio/guide/salam.mp3',
     recitations: [{ arabic: 'السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ', latin: `As-salaamu 'alaikum wa rahmatullaah`, translation: 'Semoga keselamatan dan rahmat Allah tercurah kepadamu.' }],
     guidance: { physical: ['Ucapkan salam sambil menoleh ke kanan hingga pipi terlihat dari belakang.', 'Ucapkan salam kedua sambil menoleh ke kiri (sunnah).', 'Gerakan kepala dilakukan perlahan dan wajar.'], mindfulness: ['Hadirkan niat bahwa dengan salam ini, Anda menyelesaikan ibadah dan menebarkan doa keselamatan kepada malaikat dan sesama muslim di sekitar Anda.', 'Hayati bahwa salam adalah bentuk penyebaran doa kedamaian.'] },

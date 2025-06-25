@@ -15,14 +15,14 @@ const footerLinks = {
   resources: [
     { name: 'Persiapan Sholat', href: ROUTES.persiapan },
     { name: 'Assessment Khusyu', href: ROUTES.penilaian },
-    { name: 'Tips & Panduan', href: '/tips' },
-    { name: 'FAQ', href: '/faq' },
+    { name: '', href: '/tips' },
+    { name: '', href: '/faq' },
   ],
   about: [
     { name: 'Tentang Aplikasi', href: '/tentang' },
     { name: 'Tentang Buku', href: '/profil' },
     { name: 'Tentang Penyusun', href: '/profil' },
-    { name: 'Privacy Policy', href: '/privacy' },
+    { name: '', href: '/privacy' },
   ]
 };
 
